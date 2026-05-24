@@ -1,0 +1,19 @@
+@font-face {
+    font-family: FruityCandy;
+    src: url('./custom-font/FruityCandy-Regular.ttf');
+}
+
+.box_modal{
+    background-color: #ccc9c9cb;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px dashed #0ac329;
+
+}
+ p{
+    font-family: fantasy;
+
+}
