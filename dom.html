@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn DOM</title>
+</head>
+<body>
+    
+    <!-- btn -->
+<ul>
+    <li>item-1</li>
+    <li>item-2</li>
+    <li>item-3</li>
+    <li>item-4</li>
+    <li>item-5</li>
+</ul>
+
+
+<!-- Dom Manipulation -->
+
+
+<h2>hello Dom Manipulation</h2>
+<img src="" alt="">
+<button class="show_img">show img</button>
+
+    <script>
+// Dom Manipulation
+const domMeni = document.querySelector('h2');
+console.dir(domMeni);
+
+const imgBtn = document.querySelector('.show_img');
+imgBtn.addEventListener('click' , function(){
+    document.querySelector('img').src = 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500';
+} );
+
+
+
+// const itemEl = document.querySelector('li:nth-child(3)');
+// console.log(itemEl);
+
+
+
+
+
+// parent
+
+// const parentEl = document.querySelector('h2');
+// console.log(parentEl.parentElement);
+
+        // const domEl = document.querySelector('h2');
+        // domEl.textContent = ' hello DOM!';
+
+        // const itemEl = document.querySelectorAll('.item');
+        // itemEl.forEach(function(el){
+        //     // console.log(el);
+            
+        //     el.style.color = 'green';
+        // });
+    
+
+
+        // title
+        // const titleEl = document.querySelector('.title');
+        // titleEl.innerText = 'this is Title';
+        // titleEl.classList.add('active');
+        // titleEl.classList.toggle('dark');
+
+    </script>
+</body>
+</html>
