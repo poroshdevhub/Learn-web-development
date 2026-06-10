@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+form {
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    margin: 25px auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+form div input {
+    flex: 1;
+    padding: 10px;
+}
+
+form div button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+/* item */
+.output_form {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #ddd;
+
+}
